@@ -1,6 +1,7 @@
 # PBRP device tree for Infinix Note 10 Pro ID (X695C)
 
 ## Status
+- Decrypt data (Device or resource busy)
 
 ### Blocking checks
 
