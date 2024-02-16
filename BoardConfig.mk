@@ -183,3 +183,7 @@ TW_EXCLUDE_LPTOOLS := true
 RECOVERY_BINARY_SOURCE_FILES += \
     $(TARGET_OUT_EXECUTABLES)/lptools
 TWRP_REQUIRED_MODULES += lptools
+
+# PBRP_FLAGS
+PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 1
