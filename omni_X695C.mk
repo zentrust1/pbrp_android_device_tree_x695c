@@ -31,7 +31,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X695C
-PRODUCT_NAME := pb_X695C
+PRODUCT_NAME := omni_X695C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Note 10 Pro
 PRODUCT_MANUFACTURER := Infinix
