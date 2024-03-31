@@ -317,7 +317,7 @@ jobs:
     - name: Install Python 2
       if: github.event.inputs.MANIFEST_BRANCH != 'android-11.0' && github.event.inputs.MANIFEST_BRANCH != 'android-12.1'
       run: |
-  sudo apt -y install python2
+        sudo apt -y install python2
         cd /usr/bin
         sudo ln -sf python2 python
 
