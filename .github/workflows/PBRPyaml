@@ -1,4 +1,4 @@
-name: Recovery Builder - PBRP tes
+name: Recovery Builder - PBRP
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       MANIFEST_BRANCH:
         description: 'Manifest Branch'
         required: true
-        default: 'android-12.1'
+        default: 'android-11'
         
       DEVICE_TREE:
         description: 'DEVICE_TREE_URL'
